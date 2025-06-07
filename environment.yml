@@ -1,0 +1,12 @@
+name: metazoa_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - opencv
+  - scikit-image
+  - pandas
+  - matplotlib
+  - pdf2image   # if you include pdf_to_png.py
+
